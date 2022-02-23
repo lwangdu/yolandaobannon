@@ -3,40 +3,35 @@
 
 # wordpress core specific
 
-public/index.php
-public/license.txt
-public/readme.html
-public/wp-activate.php
-public/wp-blog-header.php
-public/wp-comments-post.php
-public/wp-config.php
-public/wp-config-sample.php
-public/wp-cron.php
-public/wp-links-opml.php
-public/wp-load.php
-public/wp-login.php
-public/wp-mail.php
-public/wp-settings.php
-public/wp-signup.php
-public/wp-trackback.php
-public/xmlrpc.php
+index.php
+license.txt
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
 
-public/_notes/*
-public/.vcode/*
-public/wp-admin/*
-public/wp-includes/*
-public/_notes/*
-public/wp-content/uploads/*
-public/wp-content/upgrade/*
-public/wp-content/mu-plugins/*
+_notes/*
+.vcode/*
+wp-admin/*
+wp-includes/*
+_notes/*
+wp-content/uploads/*
+wp-content/upgrade/*
+t/mu-plugins/*
 
 # Plugins #
-public/wp-content/plugins/widget-google-reviews/
-public/wp-content/plugins/advanced-nocaptcha-recaptcha/
-public/wp-content/plugins/kadence-blocks/
-public/wp-content/plugins/ninja-forms/
-public/wp-content/plugins/loginpress/
-public/wp-content/plugins/index.php
+/wp-content/plugins/index.php
 
 # Random folder in root dircetory
 svg/*
@@ -45,4 +40,4 @@ photos/*
 
 
 # Themes #
-/wp-content/themes/twentytwentytwo/
+wp-content/themes/twentytwentytwo/
