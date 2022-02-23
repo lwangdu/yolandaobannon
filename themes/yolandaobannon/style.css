@@ -1,0 +1,41 @@
+/*
+Theme Name: Yolanda OBannon
+Template: twentytwentytwo
+Theme URI: https://github.com/wordpress/twentytwentytwo/
+Author: Lobsang Wangdu
+Author URI: https://www.yowangdu.com/
+Description: Yolanda OBannon website child theme TT2 theme.
+Version: 1.0.0
+Text Domain:  twentytwentytwochild
+*/
+
+
+.video-container {
+    position: relative;
+    height: 0; 
+    overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 782px) {
+	.wp-block-navigation.nav-primary--mobile {
+		display: none;
+	}
+	
+}
+
+@media (max-width: 783px) {
+	.wp-block-navigation.nav-primary--desktop {
+		display: none;
+	}
+	
+}
+
