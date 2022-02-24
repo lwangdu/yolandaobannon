@@ -25,12 +25,12 @@ _notes/*
 wp-admin/*
 wp-includes/*
 _notes/*
-wp-content/uploads/*
-wp-content/upgrade/*
+/uploads/*
+/upgrade/*
 t/mu-plugins/*
 
 # Plugins #
-/wp-content/plugins/index.php
+/plugins/index.php
 
 # Random folder in root dircetory
 svg/*
@@ -39,4 +39,4 @@ photos/*
 
 
 # Themes #
-wp-content/themes/twentytwentytwo/
+/themes/twentytwentytwo/
