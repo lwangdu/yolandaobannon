@@ -30,7 +30,8 @@ _notes/*
 /mu-plugins/*
 
 # Plugins #
-/plugins/index.php
+wordpress-importer/
+plugins/index.php
 
 # Random folder in root dircetory
 svg/*
