@@ -48,7 +48,7 @@
 					"name": "Foreground and secondary"
 				},
 				{
-					"colors": [ "#000000", "#faecf6" ],
+					"colors": [ "#000000", "#ffccff" ],
 					"slug": "foreground-and-tertiary",
 					"name": "Foreground and tertiary"
 				},
@@ -63,7 +63,7 @@
 					"name": "Primary and secondary"
 				},
 				{
-					"colors": [ "#7f053e", "#faecf6" ],
+					"colors": [ "#7f053e", "#ffccff" ],
 					"slug": "primary-and-tertiary",
 					"name": "Primary and tertiary"
 				}
@@ -133,7 +133,7 @@
 				},
 				{
 					"slug": "tertiary",
-					"color": "#faecf6",
+					"color": "#ffccff",
 					"name": "Tertiary"
 				}
 			]
