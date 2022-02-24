@@ -27,7 +27,7 @@ wp-includes/*
 _notes/*
 /uploads/*
 /upgrade/*
-t/mu-plugins/*
+/mu-plugins/*
 
 # Plugins #
 /plugins/index.php
@@ -39,4 +39,5 @@ photos/*
 
 
 # Themes #
-/themes/twentytwentytwo/
+themes/twentytwentytwo/
+themes/wabi/
