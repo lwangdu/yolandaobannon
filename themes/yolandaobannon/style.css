@@ -1,41 +1,125 @@
 /*
-Theme Name: Yolanda OBannon
-Template: twentytwentytwo
-Theme URI: https://github.com/lwangdu/yolandaobannon
+Theme Name: yolandaobannon
+Theme URI: https://github.com/lwangdu
 Author: Lobsang Wangdu
-Author URI: https://www.yowangdu.com/
-Description: Yolanda OBannon website child theme TT2 theme.
-Version: 1.0.0
-Text Domain:  twentytwentytwochild
+Author URI: https://www.yowangdu.com
+Description: Yolanda O'Bannon Life Coach block them
+Requires at least: 6.0
+Tested up to: 6.4.2
+Requires PHP: 5.7
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: twentytwentyfour
+Text Domain: yolandaobannon
+Tags: blog, news, portfolio, one-column, wide-blocks, accessibility-ready, block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, rtl-language-support, sticky-post, style-variations, threaded-comments, translation-ready, 
 */
+/* -- Forms -- */
 
-
-.video-container {
-    position: relative;
-    height: 0; 
-    overflow: hidden;
-}
-.video-container iframe,
-.video-container object,
-.video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-@media (min-width: 782px) {
-	.wp-block-navigation.nav-primary--mobile {
-		display: none;
-	}
-	
+select,
+textarea,
+input[type="email"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"] {
+	background-color: var(--wp--preset--color--base);
+	border: 1px solid var(--wp--preset--color--contrast);
+	border-radius: 0;
+	color: var(--wp--preset--color--contrast);
+	font-family: var(--wp--preset--font-family--primary);
+	font-size: var(--wp--preset--font-size--medium);
+	font-weight: var(--wp--custom--font-weight--light);
+	line-height: var(--wp--custom--line-height--body);
+	padding: 10px 20px;
+	width: 100%;
 }
 
-@media (max-width: 783px) {
-	.wp-block-navigation.nav-primary--desktop {
-		display: none;
-	}
-	
+select:focus,
+textarea:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="url"]:focus {
+	background-color: var(--wp--preset--color--neutral);
+	outline: none;
 }
 
+input[type="checkbox"],
+input[type="image"],
+input[type="radio"] {
+	width: auto;
+}
+
+input[type="button"],
+input[type="email"],
+input[type="search"],
+input[type="submit"],
+input[type="text"],
+textarea {
+	-webkit-appearance: none;
+}
+
+input[type="submit"] {
+	background-color: #195fa1;
+	color: #fff;
+}
+
+#gform_submit_button_2 {
+	margin-top: 10px !important;
+}
+
+::placeholder {
+	color: var(--wp--preset--color--contrast);
+	font-size: var(--wp--preset--font-size--small);
+	opacity: 0.5;
+}
+
+.wp-block-site-title a {
+    font-style: italic;
+}
+
+
+.single-product .wp-block-shortcode + .wp-block-woocommerce-add-to-cart-form,
+.single-product .wp-block-shortcode + .wp-block-woocommerce-product-button,
+.single-product .product-audio-player + .wp-block-woocommerce-add-to-cart-form,
+.single-product .product-audio-player + .wp-block-woocommerce-product-button {
+	margin-top: 50px !important;
+}
+
+.single-product .wc-block-components-product-button__button,
+.single-product .wp-block-woocommerce-add-to-cart-form .single_add_to_cart_button,
+.single-product .single_add_to_cart_button,
+.single-product button.single_add_to_cart_button {
+	font-size: 1.05rem;
+	padding: 16px 32px;
+}
+
+.page-description {
+	max-width: 800px;
+	margin: 0 auto 2em;
+	text-align: center;
+	font-size: 20px;
+	line-height: 1.7;
+	color: #555;
+}
+
+/* Home New form */
+
+#gform_wrapper_6 .gform_body .gform_fields,
+#gform_wrapper_6 .gform-body .gform_fields {
+	gap: 8px !important;
+	max-width: 600px;
+}
+
+#gform_wrapper_8 .gform_body .gform_fields,
+#gform_wrapper_8 .gform-body .gform_fields {
+	gap: 8px !important;
+	max-width: 600px;
+}
+
+#gform_wrapper_3 .gform_body .gform_fields,
+#gform_wrapper_3 .gform-body .gform_fields {
+	gap: 8px !important;
+}
